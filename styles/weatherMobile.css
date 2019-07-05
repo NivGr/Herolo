@@ -1,0 +1,116 @@
+body {
+  background-image: url('../public/BackgroundMobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.search {
+  position: relative;
+  right: 33%;
+  top:40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color:#243b6d;
+  height: 100px;
+}
+
+.search input {
+  background-color: #6ea8da;
+  height: 32px;
+  color: #243b6d;
+  font-size: 16px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #243b6d;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #243b6d;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #243b6d;
+}
+
+.search input { text-indent: 32px;}
+.search .fa-search {
+  position: relative;
+  /* top: 25px; */
+  left: 30px;
+  color: #243b6d;
+  z-index: 1;
+}
+
+.fa-play-circle-o {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  font-size: 300%;
+  position: absolute;
+  top: 1050px;
+  left: 45.5%;
+  z-index: 2
+}
+
+.box {
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  position: relative;
+  top: 60px;
+  left: 35%;
+  margin-bottom: 20px;
+}
+
+.boxFiller {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.11;
+  height: 240px;
+}
+
+.day, .temperature, .status, .location {
+  text-align: left;
+}
+
+.day, .status {
+  font-size: 17px;
+}
+
+img {
+  height: 70px;
+  margin-bottom: 20px;
+  margin-right:0;
+}
+
+#today .temperature {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+#today .location {
+  font-size: 25px;
+  margin-bottom: -20px
+}
+
+#today .status {
+  font-size: 20px;
+  margin-top:15%;
+}
+
+#today {
+  margin-bottom: -70px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+}
