@@ -1,9 +1,8 @@
 body {
   background-image: url('../public/Background.png');
   background-repeat: no-repeat;
-  min-height: 100%;
   background-size: cover;
-  background-size: 200% ;
+  background-size: 380% ;
   margin: 0;
   padding: 0;
   color: white;
